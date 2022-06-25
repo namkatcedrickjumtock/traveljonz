@@ -1,4 +1,6 @@
 import React from 'react'
+import Image  from "next/image";
+
 
 export function HeroSection() {
     return (
@@ -11,10 +13,9 @@ export function HeroSection() {
                     <h5 className='py-4 '>Even if you are not traveling, you need to step out of your comfort zone.
                       Be it taking on a new project, opening a business, or enrolling in a course. When you do something
                        that scares you a little, you can do something great</h5>
-                    
                 </div>
-                <div className='col-xs-12 col-md-8 col-lg-4'>
-                    <img src='Assets/img/travel.png' alt='' className='img-fluid w-100 h-auto ' />
+                <div className='col-xs-12 col-md-8 col-lg-6'>
+                    <Image src='/img/travel.png' alt='' className='img-fluid' height="300em" width='300em' />
                 </div>
             </div>
         </section>
